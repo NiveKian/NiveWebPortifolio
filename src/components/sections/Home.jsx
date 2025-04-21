@@ -9,7 +9,7 @@ export const Home = () => {
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
           <div className="flex justify-center py-6">
-            <img className="h-34 w-34 rounded-full object-scale-down" src="public/logotipo.svg"/>
+            <img className="h-34 w-34 rounded-full" src="http://localhost:5173/NiveWebPortifolio/public/logotipo.svg"/>
           </div>
 
           <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-red-500 to-white bg-clip-text text-transparent leading-right">
