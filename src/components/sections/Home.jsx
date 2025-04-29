@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import LogoSvg from "@/assets/Logotipo.svg?react";
 
 export const Home = () => {
   return (
@@ -9,10 +10,14 @@ export const Home = () => {
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
           <div className="flex justify-center py-6">
-            <img className="h-34 w-34 rounded-full" src="http://localhost:5173/NiveWebPortifolio/public/logotipo.svg"/>
+            <LogoSvg
+              src="/logotipo.svg"
+              alt="logo"
+              className="h-34 w-34 rounded-full"
+            />
           </div>
 
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-red-500 to-white bg-clip-text text-transparent leading-right">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-linear-to-t from-red-500 to-white bg-clip-text text-transparent leading-right">
             Olá, me chamo Ian Antunes
           </h1>
 

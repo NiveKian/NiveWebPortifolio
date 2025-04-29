@@ -8,7 +8,7 @@ export const Projects = () => {
     >
       <RevealOnScroll>
       <div className="max-w-5xl mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-red-500 from-40% to-white to-60% bg-clip-text text-transparent text-center">
+        <h2 className="text-3xl font-bold mb-8 bg-gradient-to-t from-red-500 to-white bg-clip-text text-transparent text-center">
           Projetos em Destaque
         </h2>
 
